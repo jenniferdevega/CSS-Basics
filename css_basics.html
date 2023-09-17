@@ -4,18 +4,209 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Basics</title>
+
+    <!-- CSS external link -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Start of CSS internal -->
+    <style>
+      a {
+        background-color: white;
+      }
+
+      #topicDescription {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+    <!-- End of CSS internal -->
   </head>
+
   <body>
     <!-- Start of Header -->
-    <header></header>
+    <header>
+      <h1>Top 10 Websites Ranking</h1>
+    </header>
     <!-- End of Header -->
 
     <!-- Start of Main -->
-    <main></main>
+    <main>
+      <h3 id="topicDescription">Visited Websites In The World</h3>
+      <table class="center">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Website</th>
+            <th>Avg. Visit Duration</th>
+            <th>Pages/Visit</th>
+            <th>Bounce Rate</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- Start of Google Details-->
+          <tr>
+            <td>1</td>
+            <td class="rowFormat">
+              <a
+                id="google"
+                href="https://www.google.com/"
+                class="link button"
+                style="color: blue"
+                >google</a
+              >
+            </td>
+            <td>00:10:38</td>
+            <td>8.66</td>
+            <td>28.66%</td>
+          </tr>
+          <!-- End of Google Details-->
+
+          <!-- Start of Youtube Details -->
+          <tr>
+            <td>2</td>
+            <td class="rowFormat">
+              <a id="youtube" href="https://www.youtube.com/" class="link"
+                >youtube</a
+              >
+            </td>
+            <td>00:20:19</td>
+            <td>11.56</td>
+            <td>21.47%</td>
+          </tr>
+          <!-- End of Youtube Details -->
+
+          <!-- Start of Facebook Details -->
+          <tr>
+            <td>3</td>
+            <td class="rowFormat">
+              <a
+                id="facebook"
+                href="https://www.facebook.com/"
+                class="link button"
+                >facebook</a
+              >
+            </td>
+            <td>00:10:31</td>
+            <td>8.61</td>
+            <td>31.37%</td>
+          </tr>
+          <!-- End of Facebook Details -->
+
+          <!-- Start of Instagram Details -->
+          <tr>
+            <td>4</td>
+            <td class="rowFormat">
+              <a id="instagram" href="https://www.instagram.com/" class="link"
+                >instagram</a
+              >
+            </td>
+            <td>00:08:15</td>
+            <td>11.14</td>
+            <td>35.04%</td>
+          </tr>
+          <!-- End of Instagram Details -->
+
+          <!-- Start of Twitter Details -->
+          <tr>
+            <td>5</td>
+            <td class="rowFormat">
+              <a id="twitter" href="https://twitter.com/" class="link"
+                >twitter</a
+              >
+            </td>
+            <td>00:10:35</td>
+            <td>9.81</td>
+            <td>32.15%</td>
+          </tr>
+          <!-- End of Twitter Details -->
+
+          <!-- Start of Baidu Details -->
+          <tr>
+            <td>6</td>
+            <td class="rowFormat">
+              <a
+                id="baidu"
+                href="https://www.baidu.com/"
+                class="link"
+                target="_blank"
+                >baidu</a
+              >
+            </td>
+            <td>00:05:06</td>
+            <td>8.26</td>
+            <td>22.18%</td>
+          </tr>
+          <!-- End of Wikipedia Details -->
+
+          <!-- Start of Baidu Details -->
+          <tr>
+            <td>7</td>
+            <td class="rowFormat">
+              <a id="wikipedia" href="https://www.wikipedia.org/" class="link"
+                >wikipedia</a
+              >
+            </td>
+            <td>00:03:55</td>
+            <td>3.14</td>
+            <td>59.58%</td>
+          </tr>
+          <!-- End of Wikipedia Details -->
+
+          <!-- Start of Yahoo Details -->
+          <tr>
+            <td>8</td>
+            <td class="rowFormat">
+              <a id="yahoo" href="https://yahoo.com/" class="link">yahoo</a>
+            </td>
+            <td>00:10:01</td>
+            <td>5.24</td>
+            <td>34.75%</td>
+          </tr>
+          <!-- End of Yahoo Details -->
+
+          <!-- Start of Yandex Details -->
+          <tr>
+            <td>9</td>
+            <td class="rowFormat">
+              <a
+                id="yandex"
+                href="https://dzen.ru/"
+                class="link"
+                target="_blank"
+                >yandex</a
+              >
+            </td>
+            <td>00:08:47</td>
+            <td>8.98</td>
+            <td>24.96%</td>
+          </tr>
+          <!-- End of Yandex Details -->
+
+          <!-- Start of Yandex Details -->
+          <tr>
+            <td>10</td>
+            <td class="rowFormat">
+              <a id="whatsapp" href="https://www.whatsapp.com/" class="link"
+                >whatsapp</a
+              >
+            </td>
+            <td>00:19:49</td>
+            <td>1.72</td>
+            <td>41.61%</td>
+          </tr>
+          <!-- End of Yandex Details -->
+        </tbody>
+      </table>
+    </main>
     <!-- End of Main -->
 
     <!-- Start of Footer -->
-    <footer></footer>
+    <footer>
+      <p>Copyright 2023 © De Vega, Jennifer. All rights Reserved.</p>
+    </footer>
     <!-- End of Footer -->
   </body>
 </html>
